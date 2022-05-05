@@ -4,7 +4,7 @@ import model.Student_model;
 
 import java.util.HashSet;
 
-public class Student_set {
+public class Student_set_hashcode {
 
     public HashSet<Student_model> createStudentSet(){
 
@@ -31,11 +31,11 @@ public class Student_set {
 
     public static void main(String[] args) {
 
-        Student_set obj = new Student_set();
-        HashSet <Student_model> studentHashSet = obj.createStudentSet();
+        Student_set_hashcode obj = new Student_set_hashcode();
+        HashSet <Student_model> studentHashcode = obj.createStudentSet();
 
-        System.out.println("Printing Size : " + studentHashSet.size());
-        for (Student_model var : studentHashSet) {
+        System.out.println("Printing Size : " + studentHashcode.size());
+        for (Student_model var : studentHashcode) {
 
             System.out.println("Printing name :" + var.getName() + " Rollno: " + var.getRollno() + " Section:" + var.getSection());
         }

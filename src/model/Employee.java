@@ -15,7 +15,6 @@ public class Employee {
     }
     // getter  and setter
 
-
     public String getName() {
         return name;
     }
