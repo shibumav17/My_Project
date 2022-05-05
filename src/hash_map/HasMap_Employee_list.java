@@ -22,8 +22,12 @@ public class HasMap_Employee_list {
 
         //using keySet():
 
+        System.out.println("Employee information using keySet :");
+
         for(Integer var: employeeinformationlisthashmap.keySet()){
-            System.out.println("Employee information using keySet :" +employeeinformationlisthashmap.get(var).getName()+ " Dept.:" + employeeinformationlisthashmap.get(var).getDepartment() + " Id :" +employeeinformationlisthashmap.get(var).getId());
+            System.out.println("Name: " +employeeinformationlisthashmap.get(var).getName());
+            System.out.println("Department: " + employeeinformationlisthashmap.get(var).getDepartment());
+            System.out.println("Id: " +employeeinformationlisthashmap.get(var).getId());
         }
 
 
