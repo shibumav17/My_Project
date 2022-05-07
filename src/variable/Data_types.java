@@ -1,3 +1,5 @@
+package variable;
+
 public class Data_types {
 
     public static void main(String[] args) {
