@@ -12,5 +12,6 @@ public class Child extends Demo_Abstraction {
     public static void main(String[] args) {
         Child obj = new Child();
         obj.m1();
+        obj.m2();
     }
 }

@@ -8,6 +8,12 @@ public abstract class Demo_Abstraction {
 
    public abstract void m1();
 
+   // we can also have normal method in abstract class
+
+   public void m2(){
+      System.out.println("This is normal method of abstract class");
+   }
+
    //can we create object of abstract class? No, because there is no method implementation.So if we try to call
    //abstract method then JVM will not be able to find the code.
 
