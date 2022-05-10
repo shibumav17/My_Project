@@ -1,4 +1,4 @@
-package hash_map;
+package Collection.hash_map;
 
 import model.Student;
 
